@@ -9,6 +9,18 @@
           <include name="timelineJoin"/>
         </methods>
       </class> <!-- joinPlan -->
+      <class name="inspirationInterest">
+        <methods>
+          <include name="setUp"/>
+          <include name="timelineJoin"/>
+        </methods>
+      </class> <!-- inspirationInterest -->
+      <class name="deletePlan">
+        <methods>
+          <include name="deletePlan"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- deletePlan -->
       <class name="makeComment">
         <methods>
           <include name="makeComment"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="150.501" tests="10" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="113.279" tests="10" errors="0" skipped="0" failures="7">
   <properties>
     <property name="idea.version" value="2018.1.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,11 +63,11 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="invalidNumber" classname="Register" time="7.924"/>
-  <testcase name="register" classname="Register" time="21.284"/>
-  <testcase name="tstizin" classname="Register" time="13.883"/>
-  <testcase name="makeSelection" classname="makePlan" time="16.261">
-    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8&#10;*** Element info: {Using=xpath, value=//android.view.View[@content-desc=&quot;31 October 2018&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+  <testcase name="invalidNumber" classname="Register" time="7.436"/>
+  <testcase name="register" classname="Register" time="21.348"/>
+  <testcase name="tstizin" classname="Register" time="13.648"/>
+  <testcase name="makeSelection" classname="makePlan" time="16.575">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 9a038063-d4f5-46d3-8316-d2e8356eec19&#10;*** Element info: {Using=xpath, value=//android.view.View[@content-desc=&quot;31 October 2018&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
 An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
@@ -75,15 +75,15 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
+Session ID: 9a038063-d4f5-46d3-8316-d2e8356eec19
 *** Element info: {Using=xpath, value=//android.view.View[@content-desc="31 October 2018"]}
 	at makePlan.makeSelection(makePlan.java:34)
 </failure>
     <system-out><![CDATA[*** Make plan test ***
 ]]></system-out>
   </testcase>
-  <testcase name="timelineJoin" classname="joinPlan" time="7.385">
-    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8&#10;*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text(&quot;JOIN&quot;));}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+  <testcase name="timelineJoin" classname="joinPlan" time="7.882">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 9a038063-d4f5-46d3-8316-d2e8356eec19&#10;*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text(&quot;JOIN&quot;));}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
 An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
@@ -91,59 +91,637 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
+Session ID: 9a038063-d4f5-46d3-8316-d2e8356eec19
 *** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text("JOIN"));}
 	at joinPlan.timelineJoin(joinPlan.java:20)
 </failure>
     <system-out><![CDATA[*** Timeline join test ***
 ]]></system-out>
   </testcase>
-  <testcase name="timelineChat" classname="timelineInvitedButton" time="22.057">
-    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8&#10;*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text(&quot;INVITED&quot;));}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+  <testcase name="timelineChat" classname="timelineInvitedButton" time="26.801">
+    <failure message="Returned value cannot be converted to List&lt;WebElement&gt;: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started&#10;    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)&#10;    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)&#10;    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)&#10;    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)&#10;    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)&#10;    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)&#10;    at new Promise (&lt;anonymous&gt;)&#10;    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)&#10;    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)&#10;    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)&#10;    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)&#10;    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)&#10;    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22&#10;    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)&#10;    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)&#10;    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)&#10;    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7&#10;    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5&#10;    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)&#10;    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)&#10;    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)&#10;    at emitNone (events.js:106:13)&#10;    at IncomingMessage.emit (events.js:208:7)&#10;    at endReadableNT (_stream_readable.js:1056:12)&#10;    at _combinedTickCallback (internal/process/next_tick.js:138:11)&#10;    at process._tickCallback (internal/process/next_tick.js:180:9)}&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Returned value cannot be converted to List<WebElement>: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)
+    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)
+    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)}
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
-*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text("INVITED"));}
-	at timelineInvitedButton.timelineChat(timelineInvitedButton.java:22)
-</failure>
+Driver info: driver.version: AppiumDriver
+	at timelineInvitedButton.timelineChat(timelineInvitedButton.java:18)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.base/java.util.List
+	at timelineInvitedButton.timelineChat(timelineInvitedButton.java:18)
+]]></failure>
     <system-out><![CDATA[*** Timeline invited control test ***
 ]]></system-out>
-  </testcase>
-  <testcase name="makeComment" classname="makeComment" time="16.109">
-    <failure message="An unknown server-side error occurred while processing the command. Original error: Failed to execute touch event (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: Failed to execute touch event (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+    <system-err><![CDATA[Nov 02, 2018 12:15:28 AM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[1]/android.widget.FrameLayout/android.widget.LinearLayout)
+org.openqa.selenium.WebDriverException: Returned value cannot be converted to List<WebElement>: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)
+    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)
+    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)}
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
-	at makeComment.makeComment(makeComment.java:26)
-</failure>
+Driver info: driver.version: AppiumDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at timelineInvitedButton.timelineChat(timelineInvitedButton.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.base/java.util.List
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:357)
+	... 45 more
+
+]]></system-err>
+  </testcase>
+  <testcase name="makeComment" classname="makeComment" time="3.051">
+    <failure message="Returned value cannot be converted to List&lt;WebElement&gt;: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started&#10;    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)&#10;    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)&#10;    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)&#10;    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)&#10;    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)&#10;    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)&#10;    at new Promise (&lt;anonymous&gt;)&#10;    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)&#10;    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)&#10;    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)&#10;    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)&#10;    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)&#10;    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22&#10;    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)&#10;    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)&#10;    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)&#10;    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7&#10;    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5&#10;    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)&#10;    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)&#10;    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)&#10;    at emitNone (events.js:106:13)&#10;    at IncomingMessage.emit (events.js:208:7)&#10;    at endReadableNT (_stream_readable.js:1056:12)&#10;    at _combinedTickCallback (internal/process/next_tick.js:138:11)&#10;    at process._tickCallback (internal/process/next_tick.js:180:9)}&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Returned value cannot be converted to List<WebElement>: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)
+    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)
+    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)}
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: driver.version: AppiumDriver
+	at makeComment.makeComment(makeComment.java:18)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.base/java.util.List
+	at makeComment.makeComment(makeComment.java:18)
+]]></failure>
     <system-out><![CDATA[*** Make comment control test ***
 ]]></system-out>
-  </testcase>
-  <testcase name="deletePlan" classname="deletePlan" time="5.288"/>
-  <testcase name="timelineJoin" classname="inspirationInterest" time="15.164"/>
-  <testcase name="newChat" classname="chat" time="12.395">
-    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8&#10;*** Element info: {Using=id, value=com.humally:id/lblTitle}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+    <system-err><![CDATA[Nov 02, 2018 12:15:31 AM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[1]/android.widget.FrameLayout/android.widget.LinearLayout)
+org.openqa.selenium.WebDriverException: Returned value cannot be converted to List<WebElement>: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)
+    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)
+    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)}
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
-*** Element info: {Using=id, value=com.humally:id/lblTitle}
-	at chat.newChat(chat.java:31)
-</failure>
+Driver info: driver.version: AppiumDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at makeComment.makeComment(makeComment.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.base/java.util.List
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:357)
+	... 45 more
+
+]]></system-err>
+  </testcase>
+  <testcase name="deletePlan" classname="deletePlan" time="0.085">
+    <failure message="Returned value cannot be converted to WebElement: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started&#10;    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)&#10;    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)&#10;    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)&#10;    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)&#10;    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)&#10;    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)&#10;    at new Promise (&lt;anonymous&gt;)&#10;    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)&#10;    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)&#10;    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)&#10;    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)&#10;    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)&#10;    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22&#10;    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)&#10;    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)&#10;    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)&#10;    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7&#10;    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5&#10;    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)&#10;    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)&#10;    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)&#10;    at emitNone (events.js:106:13)&#10;    at IncomingMessage.emit (events.js:208:7)&#10;    at endReadableNT (_stream_readable.js:1056:12)&#10;    at _combinedTickCallback (internal/process/next_tick.js:138:11)&#10;    at process._tickCallback (internal/process/next_tick.js:180:9)}&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Returned value cannot be converted to WebElement: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)
+    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)
+    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)}
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: driver.version: AndroidDriver
+	at deletePlan.deletePlan(deletePlan.java:18)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement
+	at deletePlan.deletePlan(deletePlan.java:18)
+]]></failure>
+    <system-out><![CDATA[*** Delete plan test ***
+]]></system-out>
+  </testcase>
+  <testcase name="timelineJoin" classname="inspirationInterest" time="0.107">
+    <failure message="Returned value cannot be converted to List&lt;WebElement&gt;: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started&#10;    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)&#10;    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)&#10;    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)&#10;    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)&#10;    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)&#10;    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)&#10;    at new Promise (&lt;anonymous&gt;)&#10;    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)&#10;    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)&#10;    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)&#10;    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)&#10;    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)&#10;    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22&#10;    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)&#10;    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)&#10;    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)&#10;    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7&#10;    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5&#10;    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)&#10;    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)&#10;    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)&#10;    at emitNone (events.js:106:13)&#10;    at IncomingMessage.emit (events.js:208:7)&#10;    at endReadableNT (_stream_readable.js:1056:12)&#10;    at _combinedTickCallback (internal/process/next_tick.js:138:11)&#10;    at process._tickCallback (internal/process/next_tick.js:180:9)}&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Returned value cannot be converted to List<WebElement>: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)
+    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)
+    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)}
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: driver.version: AppiumDriver
+	at inspirationInterest.timelineJoin(inspirationInterest.java:18)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.base/java.util.List
+	at inspirationInterest.timelineJoin(inspirationInterest.java:18)
+]]></failure>
+    <system-out><![CDATA[*** Timeline event interesting test ***
+]]></system-out>
+    <system-err><![CDATA[Nov 02, 2018 12:15:31 AM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.id: com.humally:id/meetTab)
+org.openqa.selenium.WebDriverException: Returned value cannot be converted to List<WebElement>: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)
+    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)
+    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)}
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: driver.version: AppiumDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsById(DefaultGenericMobileDriver.java:66)
+	at io.appium.java_client.AppiumDriver.findElementsById(AppiumDriver.java:156)
+	at org.openqa.selenium.By$ById.findElements(By.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at inspirationInterest.timelineJoin(inspirationInterest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.base/java.util.List
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:357)
+	... 45 more
+
+]]></system-err>
+  </testcase>
+  <testcase name="newChat" classname="chat" time="0.053">
+    <failure message="Returned value cannot be converted to List&lt;WebElement&gt;: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started&#10;    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)&#10;    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)&#10;    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)&#10;    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)&#10;    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)&#10;    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)&#10;    at new Promise (&lt;anonymous&gt;)&#10;    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)&#10;    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)&#10;    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)&#10;    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)&#10;    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)&#10;    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22&#10;    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)&#10;    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)&#10;    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)&#10;    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)&#10;    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)&#10;    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7&#10;    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)&#10;    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)&#10;    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5&#10;    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)&#10;    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)&#10;    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)&#10;    at emitNone (events.js:106:13)&#10;    at IncomingMessage.emit (events.js:208:7)&#10;    at endReadableNT (_stream_readable.js:1056:12)&#10;    at _combinedTickCallback (internal/process/next_tick.js:138:11)&#10;    at process._tickCallback (internal/process/next_tick.js:180:9)}&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Returned value cannot be converted to List<WebElement>: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)
+    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)
+    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)}
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: driver.version: AppiumDriver
+	at chat.newChat(chat.java:22)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.base/java.util.List
+	at chat.newChat(chat.java:22)
+]]></failure>
     <system-out><![CDATA[*** Chat test ***
 ]]></system-out>
+    <system-err><![CDATA[Nov 02, 2018 12:15:31 AM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[2]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ImageView)
+org.openqa.selenium.WebDriverException: Returned value cannot be converted to List<WebElement>: {error=invalid session id, message=A session is either terminated or not started, stacktrace=NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler$ (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:212:15)
+    at tryCatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/protocol.js:331:32)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:403:15
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)
+    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)
+    at done (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)}
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: driver.version: AppiumDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at chat.newChat(chat.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.base/java.util.List
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:357)
+	... 45 more
+
+]]></system-err>
   </testcase>
 </testsuite>
