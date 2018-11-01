@@ -1,22 +1,23 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name = "Suite1">
+<suite name="Suite1">
 
-    <test name = "exampletest1">
+    <test name="exampletest1">
         <classes>
-            <class name = "Cap" />
-            <class name = "Register" />
-            <class name = "makePlan" />
-            <class name = "makeComment" />
-            <class name="joinPlan" />
+            <class name="Cap"/>
+            <class name="Register"/>
+
+            <class name="makePlan"/>
+            <class name="joinPlan"/>
             <class name="timelineInvitedButton"/>
-
-
+            <class name="makeComment"/>
+            <class name="deletePlan"/>
+            <class name="inspirationInterest"/>
+            <class name="chat"/>
 
         </classes>
     </test>
-
 
 
 </suite>

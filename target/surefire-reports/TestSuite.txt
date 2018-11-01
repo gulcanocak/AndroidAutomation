@@ -1,4 +1,67 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 120.338 s - in TestSuite
+Tests run: 10, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 150.501 sec <<< FAILURE! - in TestSuite
+makeSelection(makePlan)  Time elapsed: 16.261 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="31 October 2018"]}
+	at makePlan.makeSelection(makePlan.java:34)
+
+timelineJoin(joinPlan)  Time elapsed: 7.385 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text("JOIN"));}
+	at joinPlan.timelineJoin(joinPlan.java:20)
+
+timelineChat(timelineInvitedButton)  Time elapsed: 22.057 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text("INVITED"));}
+	at timelineInvitedButton.timelineChat(timelineInvitedButton.java:22)
+
+makeComment(makeComment)  Time elapsed: 16.109 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Failed to execute touch event (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
+	at makeComment.makeComment(makeComment.java:26)
+
+newChat(chat)  Time elapsed: 12.395 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
+*** Element info: {Using=id, value=com.humally:id/lblTitle}
+	at chat.newChat(chat.java:31)
+

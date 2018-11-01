@@ -1,72 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="120.338" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="150.501" tests="10" errors="0" skipped="0" failures="5">
   <properties>
-    <property name="gopherProxySet" value="false"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="java.specification.version" value="10"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="sun.cpu.isalist" value=""/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/gulcanocak/IdeaProjects/AndroidAutomation 2/target/test-classes:/Users/gulcanocak/IdeaProjects/AndroidAutomation 2/target/classes:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-java/3.13.0/selenium-java-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.13.0/selenium-chrome-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.13.0/selenium-edge-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.13.0/selenium-firefox-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.13.0/selenium-ie-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.13.0/selenium-opera-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.13.0/selenium-safari-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar:/Users/gulcanocak/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/gulcanocak/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/gulcanocak/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/gulcanocak/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/gulcanocak/.m2/repository/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar:/Users/gulcanocak/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/gulcanocak/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/gulcanocak/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/gulcanocak/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/gulcanocak/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/gulcanocak/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/gulcanocak/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/gulcanocak/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/gulcanocak/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/gulcanocak/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/gulcanocak/.m2/repository/io/appium/java-client/6.0.0/java-client-6.0.0.jar:/Users/gulcanocak/.m2/repository/cglib/cglib/3.2.6/cglib-3.2.6.jar:/Users/gulcanocak/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/Users/gulcanocak/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/Users/gulcanocak/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/Users/gulcanocak/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/gulcanocak/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/gulcanocak/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/gulcanocak/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/gulcanocak/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/gulcanocak/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/gulcanocak/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar:/Users/gulcanocak/.m2/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar:/Users/gulcanocak/.m2/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar:/Users/gulcanocak/.m2/repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar:/Users/gulcanocak/.m2/repository/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar:/Users/gulcanocak/.m2/repository/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar:/Users/gulcanocak/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/gulcanocak/.m2/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:/Users/gulcanocak/.m2/repository/javax/websocket/javax.websocket-api/1.1/javax.websocket-api-1.1.jar:/Users/gulcanocak/.m2/repository/org/glassfish/tyrus/tyrus-client/1.13.1/tyrus-client-1.13.1.jar:/Users/gulcanocak/.m2/repository/org/glassfish/tyrus/tyrus-core/1.13.1/tyrus-core-1.13.1.jar:/Users/gulcanocak/.m2/repository/org/glassfish/tyrus/tyrus-spi/1.13.1/tyrus-spi-1.13.1.jar:/Users/gulcanocak/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly/1.2.1/tyrus-container-grizzly-1.2.1.jar:/Users/gulcanocak/.m2/repository/org/glassfish/grizzly/grizzly-framework/2.3.3/grizzly-framework-2.3.3.jar:/Users/gulcanocak/.m2/repository/org/glassfish/grizzly/grizzly-http-server/2.3.3/grizzly-http-server-2.3.3.jar:/Users/gulcanocak/.m2/repository/org/glassfish/grizzly/grizzly-http/2.3.3/grizzly-http-2.3.3.jar:/Users/gulcanocak/.m2/repository/org/glassfish/grizzly/grizzly-rcm/2.3.3/grizzly-rcm-2.3.3.jar:/Users/gulcanocak/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/gulcanocak/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/gulcanocak/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:"/>
-    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="user.timezone" value=""/>
-    <property name="java.vm.specification.version" value="10"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="TR"/>
+    <property name="idea.version" value="2018.1.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/gulcanocak/IdeaProjects/AndroidAutomation 2/target/surefire/surefirebooter14013388709132365582.jar /Users/gulcanocak/IdeaProjects/AndroidAutomation 2/target/surefire 2018-10-31T00-24-25_443-jvmRun1 surefire8653661740765942913tmp surefire_01718289003130777354tmp"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/gulcanocak/IdeaProjects/AndroidAutomation 2"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/gulcanocak/IdeaProjects/AndroidAutomation 2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/nh/nvs0_t_s7wnfcr0sn3d1xfy40000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/gulcanocak/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/gulcanocak/IdeaProjects/AndroidAutomation 2/target/test-classes:/Users/gulcanocak/IdeaProjects/AndroidAutomation 2/target/classes:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-java/3.13.0/selenium-java-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.13.0/selenium-chrome-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.13.0/selenium-edge-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.13.0/selenium-firefox-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.13.0/selenium-ie-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.13.0/selenium-opera-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.13.0/selenium-safari-driver-3.13.0.jar:/Users/gulcanocak/.m2/repository/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar:/Users/gulcanocak/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/gulcanocak/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/gulcanocak/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/gulcanocak/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/gulcanocak/.m2/repository/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar:/Users/gulcanocak/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/gulcanocak/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/gulcanocak/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/gulcanocak/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/gulcanocak/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/gulcanocak/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/gulcanocak/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/gulcanocak/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/gulcanocak/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/gulcanocak/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/gulcanocak/.m2/repository/io/appium/java-client/6.0.0/java-client-6.0.0.jar:/Users/gulcanocak/.m2/repository/cglib/cglib/3.2.6/cglib-3.2.6.jar:/Users/gulcanocak/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/Users/gulcanocak/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/Users/gulcanocak/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/Users/gulcanocak/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/gulcanocak/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/gulcanocak/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/gulcanocak/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/gulcanocak/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/gulcanocak/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/gulcanocak/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar:/Users/gulcanocak/.m2/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar:/Users/gulcanocak/.m2/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar:/Users/gulcanocak/.m2/repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar:/Users/gulcanocak/.m2/repository/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar:/Users/gulcanocak/.m2/repository/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar:/Users/gulcanocak/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/gulcanocak/.m2/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:/Users/gulcanocak/.m2/repository/javax/websocket/javax.websocket-api/1.1/javax.websocket-api-1.1.jar:/Users/gulcanocak/.m2/repository/org/glassfish/tyrus/tyrus-client/1.13.1/tyrus-client-1.13.1.jar:/Users/gulcanocak/.m2/repository/org/glassfish/tyrus/tyrus-core/1.13.1/tyrus-core-1.13.1.jar:/Users/gulcanocak/.m2/repository/org/glassfish/tyrus/tyrus-spi/1.13.1/tyrus-spi-1.13.1.jar:/Users/gulcanocak/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly/1.2.1/tyrus-container-grizzly-1.2.1.jar:/Users/gulcanocak/.m2/repository/org/glassfish/grizzly/grizzly-framework/2.3.3/grizzly-framework-2.3.3.jar:/Users/gulcanocak/.m2/repository/org/glassfish/grizzly/grizzly-http-server/2.3.3/grizzly-http-server-2.3.3.jar:/Users/gulcanocak/.m2/repository/org/glassfish/grizzly/grizzly-http/2.3.3/grizzly-http-2.3.3.jar:/Users/gulcanocak/.m2/repository/org/glassfish/grizzly/grizzly-rcm/2.3.3/grizzly-rcm-2.3.3.jar:/Users/gulcanocak/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/gulcanocak/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/gulcanocak/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/gulcanocak"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="gulcanocak"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.1.4 test -f pom.xml"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2018-04-17"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home"/>
-    <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/gulcanocak/IdeaProjects/AndroidAutomation 2"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/gulcanocak/IdeaProjects/AndroidAutomation 2/target/surefire/surefirebooter14013388709132365582.jar"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="10.0.1+10"/>
-    <property name="user.name" value="gulcanocak"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="10.13.5"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="18.3"/>
-    <property name="localRepository" value="/Users/gulcanocak/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="/var/folders/nh/nvs0_t_s7wnfcr0sn3d1xfy40000gn/T/"/>
-    <property name="java.version" value="10.0.1"/>
-    <property name="user.dir" value="/Users/gulcanocak/IdeaProjects/AndroidAutomation 2"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.library.path" value="/Users/gulcanocak/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="java.class.version" value="54.0"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="invalidNumber" classname="Register" time="7.156"/>
-  <testcase name="register" classname="Register" time="20.93"/>
-  <testcase name="tstizin" classname="Register" time="10.546"/>
-  <testcase name="makeSelection" classname="makePlan" time="42.755"/>
-  <testcase name="makeComment" classname="makeComment" time="15.308"/>
-  <testcase name="timelineJoin" classname="joinPlan" time="2.802"/>
-  <testcase name="timelineChat" classname="timelineInvitedButton" time="6.6"/>
+  <testcase name="invalidNumber" classname="Register" time="7.924"/>
+  <testcase name="register" classname="Register" time="21.284"/>
+  <testcase name="tstizin" classname="Register" time="13.883"/>
+  <testcase name="makeSelection" classname="makePlan" time="16.261">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8&#10;*** Element info: {Using=xpath, value=//android.view.View[@content-desc=&quot;31 October 2018&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="31 October 2018"]}
+	at makePlan.makeSelection(makePlan.java:34)
+</failure>
+    <system-out><![CDATA[*** Make plan test ***
+]]></system-out>
+  </testcase>
+  <testcase name="timelineJoin" classname="joinPlan" time="7.385">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8&#10;*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text(&quot;JOIN&quot;));}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text("JOIN"));}
+	at joinPlan.timelineJoin(joinPlan.java:20)
+</failure>
+    <system-out><![CDATA[*** Timeline join test ***
+]]></system-out>
+  </testcase>
+  <testcase name="timelineChat" classname="timelineInvitedButton" time="22.057">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8&#10;*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text(&quot;INVITED&quot;));}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text("INVITED"));}
+	at timelineInvitedButton.timelineChat(timelineInvitedButton.java:22)
+</failure>
+    <system-out><![CDATA[*** Timeline invited control test ***
+]]></system-out>
+  </testcase>
+  <testcase name="makeComment" classname="makeComment" time="16.109">
+    <failure message="An unknown server-side error occurred while processing the command. Original error: Failed to execute touch event (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Failed to execute touch event (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
+	at makeComment.makeComment(makeComment.java:26)
+</failure>
+    <system-out><![CDATA[*** Make comment control test ***
+]]></system-out>
+  </testcase>
+  <testcase name="deletePlan" classname="deletePlan" time="5.288"/>
+  <testcase name="timelineJoin" classname="inspirationInterest" time="15.164"/>
+  <testcase name="newChat" classname="chat" time="12.395">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;gulcans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:52:1551:4aa3:9aac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8&#10;*** Element info: {Using=id, value=com.humally:id/lblTitle}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'gulcans-MacBook-Pro.local', ip: 'fe80:0:0:0:52:1551:4aa3:9aac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/gulcanocak/Downloads..., appActivity: com.humally.activities.Spla..., appPackage: com.humally, appWaitActivity: com.humally.activities.Spla..., appWaitPackage: com.humally, databaseEnabled: false, desired: {app: /Users/gulcanocak/Downloads..., deviceName: Nexus 5X API 27, newCommandTimeout: 4000, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 4000, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 247212c9-9631-44f2-b3c0-cba018d9b4c8
+*** Element info: {Using=id, value=com.humally:id/lblTitle}
+	at chat.newChat(chat.java:31)
+</failure>
+    <system-out><![CDATA[*** Chat test ***
+]]></system-out>
+  </testcase>
 </testsuite>
