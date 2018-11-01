@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="12" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-10-30T21:24:35Z" name="Suite1" finished-at="2018-10-30T21:26:26Z" duration-ms="111051">
+    <groups>
+    </groups>
+    <test started-at="2018-10-30T21:24:35Z" name="exampletest1" finished-at="2018-10-30T21:26:26Z" duration-ms="111051">
+      <class name="joinPlan">
+        <test-method signature="timelineJoin()[pri:0, instance:joinPlan@662ac478]" started-at="2018-10-30T21:26:17Z" name="timelineJoin" finished-at="2018-10-30T21:26:20Z" duration-ms="2801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timelineJoin -->
+      </class> <!-- joinPlan -->
+      <class name="makeComment">
+        <test-method signature="makeComment()[pri:0, instance:makeComment@31190526]" started-at="2018-10-30T21:26:02Z" name="makeComment" finished-at="2018-10-30T21:26:17Z" duration-ms="15311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeComment -->
+      </class> <!-- makeComment -->
+      <class name="Cap">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Cap@217ed35e]" started-at="2018-10-30T21:24:27Z" name="setUp" finished-at="2018-10-30T21:24:35Z" duration-ms="8684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- Cap -->
+      <class name="Register">
+        <test-method is-config="true" signature="emptyNumber()[pri:0, instance:Register@7dcf94f8]" started-at="2018-10-30T21:24:35Z" name="emptyNumber" finished-at="2018-10-30T21:24:40Z" duration-ms="4932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyNumber -->
+        <test-method signature="invalidNumber()[pri:0, instance:Register@7dcf94f8]" started-at="2018-10-30T21:24:40Z" name="invalidNumber" finished-at="2018-10-30T21:24:47Z" duration-ms="7155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidNumber -->
+        <test-method signature="register()[pri:0, instance:Register@7dcf94f8]" started-at="2018-10-30T21:24:47Z" name="register" finished-at="2018-10-30T21:25:08Z" duration-ms="20929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="tstizin()[pri:0, instance:Register@7dcf94f8]" started-at="2018-10-30T21:25:08Z" name="tstizin" finished-at="2018-10-30T21:25:19Z" duration-ms="10546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstizin -->
+      </class> <!-- Register -->
+      <class name="timelineInvitedButton">
+        <test-method signature="timelineChat()[pri:0, instance:timelineInvitedButton@6743e411]" started-at="2018-10-30T21:26:20Z" name="timelineChat" finished-at="2018-10-30T21:26:26Z" duration-ms="6600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timelineChat -->
+      </class> <!-- timelineInvitedButton -->
+      <class name="makePlan">
+        <test-method signature="makeSelection()[pri:0, instance:makePlan@229f66ed]" started-at="2018-10-30T21:25:19Z" name="makeSelection" finished-at="2018-10-30T21:26:02Z" duration-ms="42752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSelection -->
+      </class> <!-- makePlan -->
+    </test> <!-- exampletest1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
